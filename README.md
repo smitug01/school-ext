@@ -1,4 +1,4 @@
-# <p><a href="https://git.smtw.tw/">畢業感言</a></p> #
+# <a href="https://git.smtw.tw/">畢業感言</a> #
 ~LOL~
 
 
