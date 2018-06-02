@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 # <a href="https://sc.retw.tech/">畢業感言</a> #
 ~LOL~
-<title>畢業感言</title>
 
 <p><a href="https://sc.retw.tech/601/index.html">601</a></p>
 
