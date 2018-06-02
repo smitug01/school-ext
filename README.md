@@ -1,6 +1,6 @@
 # <a href="https://git.smtw.tw/">畢業感言</a> #
 ~LOL~
-
+<title>畢業感言</title>
 
 <p><a href="https://sc.retw.tech/601/index.html">601</a></p>
 
