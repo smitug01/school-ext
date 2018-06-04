@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>請輸入密碼</title>
+<script lauguage=javascript>
+var rightps = 0
+var password = prompt("請輸入登入密碼","") 
+storePS = new Array()
+storePS[0] = "mdfuck"
+storePS[1] = "sumi0709"
+storePS[2] = "youtubeD"
+storePS[3] = "wwo221" 
+
+for (var i=0; i<=storePS.length-1; i++) {
+if (password == storePS[i]) {
+rightps = 1
+}
+} 
+
+if (rightps == '1') {
+self.location = 'act.html'
+}
+else {
+self.location = 'wrong.html'
+}
+</script>
+<?php 
+    if($_POST[password] == 'sumi0709'{
+            setcookie("login",'USER', time()+3600);
+            header("Location: https://sc.rstw.tech/act.html"); 
+?>
+        <form method="post" action="login.php" style="width:100%;margin:0 auto;">
+            <div><label for="user_login">
+                <input id="username" type="text" size="28" name="username" value="" />
+            </label></div>
+            <div><label for="user_password">
+                <input id="password" type="password" size="28" name="password" value="" />
+            </label></div>
+            <div>
+                <button type="submit" title="Pass" name=".login" value="Pass" >Pass</button>
+            </div>
+        </form>
+<?php  } ?>
+</head>
+<body bgcolor="#ffffff">
+</body>
+</html> 
